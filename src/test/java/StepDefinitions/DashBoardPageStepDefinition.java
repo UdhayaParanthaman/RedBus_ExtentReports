@@ -24,8 +24,9 @@ public class DashBoardPageStepDefinition extends BaseTest{
 
 	@Given("I want to be in {string} page")
 	public void i_want_to_be_in_page(String url) {
-		
+		//bt.driver.get(url)
 		db.dashBoard(url);
+		
 
 	   
 	}
