@@ -1,7 +1,7 @@
 package StepDefinitions;
 
-import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
+
+
 
 import com.kumaran.RedBus.BaseTest;
 import com.kumaran.RedBus.DashBoardPage;
@@ -9,7 +9,6 @@ import com.kumaran.RedBus.DashBoardPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.testng.CucumberOptions;
 
 
 
@@ -24,7 +23,7 @@ public class DashBoardPageStepDefinition extends BaseTest{
 
 	@Given("I want to be in {string} page")
 	public void i_want_to_be_in_page(String url) {
-		//bt.driver.get(url)
+		
 		db.dashBoard(url);
 		
 
